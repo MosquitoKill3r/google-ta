@@ -1,0 +1,13 @@
+<div>
+    <input type="text"
+           [formControl]="taInput"
+           autofocus
+    >
+
+
+  <div style="border: 1px solid red;">
+    <div *ngFor="let a of addresses">
+      {{a.address}}
+    </div>
+  </div>
+</div>
